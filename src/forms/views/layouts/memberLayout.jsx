@@ -4,12 +4,7 @@ import Footer from "../../../components/footer";
 import MemberList from "../../../components/memberList";
 import Membership from "../../../components/membership";
 
-export default function MemberLayout({
-  postback,
-  memberList,
-  memberSelect,
-  membership,
-}) {
+const MemberLayout = ({ membership, memberList, memberSelect }) => {
   return (
     <div className="flex h-screen flex-col">
       <Header />
@@ -28,4 +23,5 @@ export default function MemberLayout({
       <Footer />
     </div>
   );
-}
+};
+export default MemberLayout;
