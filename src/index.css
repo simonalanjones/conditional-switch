@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+
+  .form-label-radio {
+    @apply px-2 text-sm;
+  }
+
+  .form-input-ok {
+    @apply mt-1 block w-full rounded-md border-gray-300 focus:border-blue-500 focus:ring-blue-500 sm:text-sm;
+  }
+
+  .form-input-error {
+    @apply mt-1 block w-full rounded-md border-rose-600 sm:text-sm;
+  }
+
+  .form-radio-error {
+    @apply mr-3 rounded-lg border border-rose-600;
+  }
+
+  .form-radio-ok {
+    @apply mr-3 h-4 w-4 border-gray-300 text-blue-600 shadow focus:ring-blue-500;
+  }
+}
