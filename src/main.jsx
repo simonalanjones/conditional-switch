@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Root from "./routes/root";
+import BaseLayout from "./forms/views/layouts/baseLayout";
 import Membership from "./routes/membership";
 import Agent from "./routes/agent";
 import MemberView from "./routes/memberView";
@@ -52,7 +52,7 @@ const memberList = () => {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <BaseLayout />,
     errorElement: <ErrorPage />,
     children: [
       {
