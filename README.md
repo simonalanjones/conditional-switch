@@ -16,4 +16,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 <img src='/public/images/screenshot1.png' />
 <img src='/public/images/screenshot2.png' />
 <img src='/public/images/screenshot3.png' />
-<img src='/public/images/screenshot4.png' />
+
